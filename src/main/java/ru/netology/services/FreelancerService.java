@@ -1,9 +1,8 @@
-package ru.netology.ser
+package ru.netology.services;
 
 public class FreelancerService {
-    public int
 
-    void calculate(int income, int expenses, int threshold) {
+    int calculate(int income, int expenses, int threshold) {
         int money = 0;
         int counter = 0;
 
@@ -12,7 +11,7 @@ public class FreelancerService {
                 // отдых
                 money -= expenses;
                 money /= 3;
-                counter++
+                counter++;
             } else {
                 // работа
                 money += income;
